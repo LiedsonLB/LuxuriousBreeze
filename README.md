@@ -3,7 +3,7 @@
 
 # Imagens do Projeto
 <p align="center">
-  <img src="./img/" alt="Imagem Site" style="width: 100%; margin: 0 auto;">
+  <img src="./public/img/luxuriousBreeze.png" alt="Imagem Site" style="width: 100%; margin: 0 auto;">
 </p>
 
 # Conhecimentos utilizados:
