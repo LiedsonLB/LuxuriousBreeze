@@ -1,35 +1,9 @@
-<<<<<<< HEAD
-# luxuriousbreeze
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-=======
 # LuxuriousBreeze - Site de Hospedagens para compra e venda de Imoveis 🏢🏬
 #### Um site de hospedagem para divulgação e compra de imóveis em Vue.js com diversos recursos
 
 # Imagens do Projeto
 <p align="center">
-  <img src="./img/" alt="Imagem Site" style="width: 100%; margin: 0 auto;">
+  <img src="./public/img/luxuriousBreeze all.png" alt="Imagem Site" style="width: 100%; margin: 0 auto;">
 </p>
 
 # Conhecimentos utilizados:
@@ -52,4 +26,3 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 # Site para testar:
 https://luxuriousbreeze.web.app
->>>>>>> 8073779e20bc01726e53252326c28485e66a115d
