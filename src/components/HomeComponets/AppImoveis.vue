@@ -14,6 +14,21 @@
           <button>Ver Mais</button>
         </div>
       </div>
+
+      <div id="pageNavigation">
+        <button class="btnPage">Anterior</button>
+        <button class="btnPage active">1</button>
+        <button class="btnPage">2</button>
+        <button class="btnPage">3</button>
+        <button class="btnPage">4</button>
+        <button class="btnPage" id="btnPlusPage">...</button>
+        <button class="btnPage">7</button>
+        <button class="btnPage">8</button>
+        <button class="btnPage">9</button>
+        <button class="btnPage">10</button>
+        <button class="btnPage">Proximo</button>
+    </div>
+
     </div>
     <br><br><br>
 </template>
@@ -149,5 +164,42 @@ export default{
 }
 .imovel-description button:hover{
     background-color: #0293c4;
+}
+/* rolagem */
+#pageNavigation {
+    margin-top: 1rem;
+    max-width: 80%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.btnPage {
+    box-sizing: border-box;
+    border: 1.8px solid var(--blue-color);
+    padding: 0.5em 1em;
+    font-weight: 500;
+    color: var(--blue-color);
+    border-radius: 5px;
+    font-size: 1em;
+    background: transparent;
+    cursor: pointer;
+}
+.btnPage:hover{
+    background-color: #0293c4;
+    border: 1.8px solid transparent;
+    color: #fff;
+}
+#btnPlusPage {
+    border: none !important;
+    cursor: auto !important;
+    background: transparent !important;
+    color: var(--blue-color) !important;
+}
+.active {
+    background-color: var(--blue-color);
+    color: #fff;
 }
 </style>

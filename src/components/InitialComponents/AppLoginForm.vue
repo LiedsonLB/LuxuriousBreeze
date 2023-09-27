@@ -65,7 +65,7 @@
 <style scoped>
 #center-login-form {
     width: 100%;
-    height: 80%;
+    height: 70%;
 }
 #login-form, #cadastro-form {
     width: 70%;

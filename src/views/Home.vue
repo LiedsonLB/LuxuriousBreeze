@@ -253,5 +253,8 @@
     .logsbtn {
         width: 100% !important;
     }
+    #pageNavigation {
+        display: none;
+    }
   }
   </style>

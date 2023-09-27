@@ -6,7 +6,9 @@
       <!-- Escolha de login -->
   
       <div id="container-apresention-login">
-        <div id="container-left"></div>
+        <div id="container-left">
+            <img :src="logo" alt="">
+        </div>
 
         <div id="container-right">
           <!-- CAMPO CADASTRO -->
@@ -33,7 +35,7 @@
     },
     data() {
       return {
-        logo: "img/luxuriousBreezeLogo.png",
+        logo: "img/luxuriousBreezeimagemia1.jpg",
         mostrarDiv: true,
         cadasterSelection: false,
         loginSelection: true,
@@ -104,10 +106,12 @@
     width: 50%;
 }
 #container-left {
-    background: url(https://portalbhimoveis.com.br/wp-content/uploads/2020/11/portal_bh_imoveis-sobre-670x460.jpg);
-    background-size: cover;
+    overflow: hidden;
     height: 100%;
-    background-position-x: center;
+}
+#container-left img{
+    object-fit: cover;
+    width: 100%;
 }
 .colorido{
     color: var(--blue-color);
