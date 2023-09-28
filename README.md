@@ -2,8 +2,8 @@
 #### Um site de hospedagem para divulgação e compra de imóveis em Vue.js com diversos recursos
 
 # Imagens do Projeto
-<p align="center">
-  <img src="./public/img/luxuriousBreeze all.png" alt="Imagem Site" style="width: 100%; margin: 0 auto;">
+<p text-align="center">
+  <img src="./public/img/luxuriousBreeze site.png" alt="Imagem Site" style="width: 100%; margin: 0 auto;">
 </p>
 
 # Conhecimentos utilizados:
