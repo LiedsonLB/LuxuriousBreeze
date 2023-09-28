@@ -60,11 +60,11 @@ export default {
     background-color: var(--blue-color);
 }
 #container-destaque {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 #carrosel{
-    min-width: 80%;
+    min-width: 90%;
     flex-direction: row;
     display: flex;
     justify-content: center;
